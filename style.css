@@ -70,6 +70,13 @@ nav span {
 
 /* the products */
 
+.img-fluid{
+    size: 60px;
+}
+
+
+
+
 .buy-btn a{
     text-decoration: none;
     color: white;
