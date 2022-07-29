@@ -23,12 +23,6 @@ nav span {
     color: rgb(0, 0, 0);
 }
 
-/*  
-.navbar button {
-    color: white;
-    border-color: white;
-}/*  */
-
 
 .logo {
     font-weight: bold;
@@ -136,6 +130,10 @@ nav span {
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    overflow: auto;
+}
+
 .wrapper {
     width: 95%;
     margin: 0 auto;
@@ -218,7 +216,7 @@ nav span {
     grid-template-columns: auto auto auto;
     grid-column-gap: 1.5em;
     padding: 2em 2em;
-    margin-left: 90px;
+    /* margin-left: 90px;/*  */
 }
 
 .price {
@@ -245,6 +243,14 @@ nav span {
     border-radius: 5px;
     box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
     justify-content: space-between;
+    /*  margin-left: 33px;/*  */
+    overflow-y: scroll;
+}
+
+
+.card::-webkit-scrollbar {
+    display: none;
+    /* for/*  */
 }
 
 .image-container {
@@ -256,6 +262,16 @@ img {
     object-fit: contain;
     height: 12em;
 }
+
+#products {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+
 
 .container {
     padding-top: 1em;
@@ -277,17 +293,17 @@ img {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     img {
         max-width: 100%;
         object-fit: contain;
-        height: 10em;
+        height: 1em;
     }
 
     .card {
         max-width: 15em;
         margin-top: 3em;
-        justify-content: space-between;
+        /*  justify-content: space-between;/*  */
     }
 
     .amazon-logo {
@@ -300,16 +316,22 @@ img {
 
     .container h5,
     h6 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #products {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
+
+    .footer-text h7,
+    h5,
+    p {
+        font-size: 10px;
+    }
 }
 
-/*  */
+
 
 @media screen and (max-width:700px) {
 
@@ -324,13 +346,13 @@ img {
 
     .container1 h6,
     h3 {
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .card {
         max-width: 15em;
         margin-top: 3em;
-        margin-left: -20px;
+        /*  margin-left: -20px;/*  */
         justify-content: space-between;
     }
 
@@ -363,10 +385,10 @@ img {
         padding: 10px;
     }
 
-    /*  
-    #products{
+
+    #products {
         margin-right: px;
-    }/*  */
+    }
 
 }
 
@@ -379,14 +401,14 @@ img {
     }
 
     .card {
-        justify-content: space-between;
+        /*  justify-content: space-between;/*  */
         max-width: 15em;
         margin-top: 3em;
         padding: 1em;
         border-radius: 5px;
-
-
     }
+
+
 
     .container1 h6,
     h3 {
@@ -448,7 +470,7 @@ img {
         justify-content: space-between;
         display: flex;
         justify-content: space-around;
-        margin-left: -33px;
+        /*  margin-left: -25px;/*  */
 
     }
 
@@ -456,6 +478,208 @@ img {
     h3 {
         font-size: 16px;
     }
+
+    .container1 h1,
+    h5 {
+        font-size: 40px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .amazon-logo {
+        width: 20px;
+    }
+
+    .button-value {
+        padding: 0.5em 1em;
+        margin: 2px;
+
+    }
+
+    #search-container button {
+        padding: 0.5em 1em;
+
+    }
+
+    /* product  /*  */
+    .container h5,
+    h6 {
+        font-size: 12px;
+    }
+
+    .container h6 {
+        font-size: 10px;
+    }
+
+    .buy-btn {
+        padding: 10px;
+    }
+
+    #products {
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    img {
+        max-width: 90%;
+        object-fit: contain;
+        height: 9em;
+    }
+
+    .card {
+        width: 13em;
+        height: 18em;
+        margin-top: 3em;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .container1 h6,
+    h3 {
+        font-size: 16px;
+    }
+
+
+    .container1 h1,
+    h5 {
+        font-size: 30px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .amazon-logo {
+        width: 20px;
+    }
+
+
+
+    #search-container button {
+        padding: 0.5em 1em;
+    }
+
+    .button-value {
+        padding: 0.5em 0.8em;
+        margin: 1px;
+    }
+
+    .footer-part h7,
+    h5 {
+        font-size: 10px;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+    img {
+        max-width: 90%;
+        object-fit: contain;
+        height: 9em;
+    }
+
+    .card {
+        width: 13em;
+        height: 18em;
+        margin-top: 3em;
+        justify-content: space-between;
+    }
+
+    .container1 h6,
+    h3 {
+        font-size: 16px;
+    }
+
+
+    .container1 h1,
+    h5 {
+        font-size: 30px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .amazon-logo {
+        width: 20px;
+    }
+
+
+
+    #search-container button {
+        padding: 0.5em 1em;
+    }
+
+    .button-value {
+        padding: 0.5em 0.4em;
+        margin: 1px;
+    }
+
+   
+    .footer-part h7,
+    h5 {
+        font-size: 10px;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+@media screen and (max-width: 400px) {
+
+
+    img {
+        max-width: 90%;
+        object-fit: contain;
+        height: 9em;
+    }
+
+    .card {
+        width: 12em;
+        height: 18em;
+        margin-top: 3em;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .container1 h6,
+    h3 {
+        font-size: 16px;
+    }
+
 
     .container1 h1,
     h5 {
@@ -478,57 +702,18 @@ img {
 
     #search-container button {
         padding: 0.5em 1em;
-
-    }
-/* product  */
-    .container h5,h6 {
-        font-size: 12px;
-    }
-    .container h6{
-        font-size: 10px;
     }
 
-    .buy-btn {
-        padding: 10px;
-    }
-
-    #products {
-        grid-template-columns: auto auto;
-        grid-column-gap: 1em;
-    }
 
 }
+
+
 
 /*  */
 
 
 
-@media screen and (max-width: 500px) {
-    img {
-        max-width: 100%;
-        object-fit: contain;
-        height: 8.6em;
-    }
 
-    .card {
-        max-width: 29em;
-        margin-top: 2em;
-    }
-
-    .button-value {
-        padding: 1em 1em;
-
-    }
-
-    .buy-btn {
-        padding: 0.5rem;
-    }
-
-    #products {
-        grid-template-columns: auto auto;
-        grid-column-gap: 1em;
-    }
-}
 
 
 
@@ -540,7 +725,7 @@ img {
 .footer-part {
     background-color: rgba(164, 167, 167, 0.74);
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -549,19 +734,24 @@ img {
 }
 
 .footer-part img {
-    width: 40px;
+    width: 20px;
     margin-bottom: -60px;
 }
 
 
 
 .footer-part h5 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.footer-part h5,
+h7,
+p {
+    font-size: 20 px;
+}
 
-footer-text h4 {
+footer-text h5 {
     display: flex;
     justify-content: center;
     align-items: center;
