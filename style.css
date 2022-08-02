@@ -312,13 +312,13 @@ img {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
-
+/*  
     .footer-text h7,
     h5,
     p {
         font-size: 10px;
     }
-
+/*  */
 
     .container1 h1 {
         font-size: 39px;
@@ -384,9 +384,7 @@ img {
     }
 
 
-    .container1 h1 {
-        margin-right: -5px;
-    }
+   
 
     .container1 h5 {
         font-size: medium;
@@ -550,10 +548,6 @@ img {
         font-size: 16px;
     }
 
-    .container1 h1,
-    h5 {
-        font-size: 40px;
-    }
 
     .logo {
         font-size: 20px;
@@ -747,10 +741,7 @@ img {
         font-weight: 20px;
     }
 
-    #search-container button {
-        padding: 0.5em 1em;
-    }
-
+   
 
 }
 
