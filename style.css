@@ -592,13 +592,13 @@ img {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
-
+/*  
     .footer-part {
 
         width: 90%;
         height: 10vh;
     }
-
+ /*  */
 
     .container1 h1 {
         font-size: 31px;
@@ -666,7 +666,7 @@ img {
         margin: 1px;
     }
 
-
+/*  
     .footer-text h7,
     h5 {
         font-size: 10px;
@@ -675,7 +675,7 @@ img {
     .footer-text {
         height: 10vh;
 
-    }
+    }/*  */
 
     .container1 h1,
     h5 {
@@ -732,7 +732,7 @@ img {
     #search button{
         padding: 0.43em 0.4em;
     }
-
+/*  
     .footer-text h7,
     h5 {
         font-size: 10px;
@@ -740,7 +740,7 @@ img {
 
     .footer-part{
         height: 25vh;
-    }
+    }/*  */
 
     .container1 h1,
     h5 {
