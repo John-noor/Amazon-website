@@ -58,7 +58,7 @@ nav span {
 
 /* the on amazon word */
 .container1 h5 {
-    color: rgb(255, 251, 251);
+    color: rgb(3, 2, 2);
     font-weight: bold;
     margin-left: 88px;
 }
@@ -318,7 +318,17 @@ img {
     p {
         font-size: 10px;
     }
+
+
+    .container1 h1 {
+        font-size: 39px;
+    }
+
+    .container1 h5 {
+        font-size: medium;
+    }
 }
+
 
 
 
@@ -374,10 +384,13 @@ img {
     }
 
 
-    #products {
-        margin-right: px;
+    .container1 h1 {
+        margin-right: -5px;
     }
 
+    .container1 h5 {
+        font-size: medium;
+    }
 }
 
 
@@ -439,6 +452,12 @@ img {
     #products {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
+    }
+
+
+    .container1 h1,
+    h5 {
+        font-weight: 33px;
     }
 }
 
@@ -580,13 +599,26 @@ img {
         height: 10vh;
     }
 
+
+    .container1 h1 {
+        font-size: 31px;
+    }
+
+    .container1 h5 {
+        font-size: medium;
+    }
+
+    .container1 h6 {
+        font-size: 15px;
+    }
+
 }
 
 
 
 
 
-/*  
+
 
 @media screen and (max-width: 450px) {
 
@@ -598,7 +630,7 @@ img {
     }
 
     .card {
-        width: 13em;
+        width: 10em;
         height: 18em;
         margin-top: 3em;
         justify-content: space-between;
@@ -639,26 +671,24 @@ img {
     h5 {
         font-size: 10px;
     }
-    
-    footer-text{
+
+    .footer-text {
         height: 10vh;
 
+    }
+
+    .container1 h1,
+    h5 {
+        font-weight: 20px;
     }
 }
 
 
 
-/*  */
 
 
 
 
-
-
-
-
-
-/*  
 @media screen and (max-width: 400px) {
 
 
@@ -669,11 +699,10 @@ img {
     }
 
     .card {
-        width: 12em;
+        width: 10em;
         height: 18em;
         margin-top: 3em;
         justify-content: space-between;
-        display: flex;
     }
 
     .container1 h6,
@@ -696,9 +725,26 @@ img {
     }
 
     .button-value {
-        padding: 0.5em 1em;
-        margin: 2px;
+        padding: 0.3em 0.2em;
+        margin: 0.6px;
+    }
 
+    #search button{
+        padding: 0.43em 0.4em;
+    }
+
+    .footer-text h7,
+    h5 {
+        font-size: 10px;
+    }
+
+    .footer-part{
+        height: 25vh;
+    }
+
+    .container1 h1,
+    h5 {
+        font-weight: 20px;
     }
 
     #search-container button {
@@ -710,7 +756,7 @@ img {
 
 
 
-/*  */
+
 
 
 
