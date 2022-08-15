@@ -57,7 +57,7 @@ nav span {
 }
 
 /* the on amazon word */
-.container1 h5 {
+.container1 h4 {
     color: rgb(3, 2, 2);
     font-weight: bold;
     margin-left: 88px;
@@ -292,7 +292,7 @@ img {
         max-width: 15em;
         margin-top: 3em;
         justify-content: space-between;
-        margin-left: 33px;
+        /*  margin-left: 33px;/*  */
     }
 
     .amazon-logo {
@@ -312,7 +312,8 @@ img {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
-/*  
+
+    /*  
     .footer-text h7,
     h5,
     p {
@@ -320,13 +321,15 @@ img {
     }
 /*  */
 
-    .container1 h1 {
+    #home h1 {
         font-size: 39px;
+        /*  margin-bottom: -4em;/*  */
     }
 
-    .container1 h5 {
-        font-size: medium;
-    }
+    /* 
+    .container1 .h4 {
+        margin-top: -2.9em;
+    }/*  */
 }
 
 
@@ -384,7 +387,7 @@ img {
     }
 
 
-   
+
 
     .container1 h5 {
         font-size: medium;
@@ -586,7 +589,8 @@ img {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
-/*  
+
+    /*  
     .footer-part {
 
         width: 90%;
@@ -660,7 +664,7 @@ img {
         margin: 1px;
     }
 
-/*  
+    /*  
     .footer-text h7,
     h5 {
         font-size: 10px;
@@ -723,10 +727,11 @@ img {
         margin: 0.6px;
     }
 
-    #search button{
+    #search button {
         padding: 0.43em 0.4em;
     }
-/*  
+
+    /*  
     .footer-text h7,
     h5 {
         font-size: 10px;
@@ -741,7 +746,7 @@ img {
         font-weight: 20px;
     }
 
-   
+
 
 }
 
