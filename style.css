@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Square+Peg&display=swap');
+
+/* for the home text  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville:ital@1&family=Martel&family=Square+Peg&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,36 +12,40 @@
 }
 
 nav {
-    background-color: rgba(205, 232, 233, 0.74);
-    height: 60px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.404);
+    background-color: #C6DCE4;
+    height: 70px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.6);
 }
 
 nav a {
     margin-top: -20px;
 }
 
+/*  
 .amazon-logo {
     width: 20px;
     height: 57px;
-}
+}/*  */
 
 nav span {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
 }
 
 
 .logo {
-    font-weight: bold;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 23px;
+    font-size: 2.7rem;
+    margin-left: 2.4rem;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* the big img after the nav */
 #home {
-    background-image: url(images/pexels-cleyder-duque-3637739.jpg);
+    /* background-image: url(images/kitchen.PNG);/*  */
     width: 100%;
+    background-image: linear-gradient(to right, rgb(255, 230, 230), rgb(198, 220, 228));
     height: 100vh;
     background-size: cover;
     background-position: top center;
@@ -45,38 +56,44 @@ nav span {
 }
 
 #home span {
-    color: rgb(0, 0, 0);
+    color: rgb(198, 220, 228);
 }
 
 /* THE white parghraph in the img */
 .container1 h1 {
-    color: white;
-    font-size: 40px;
-    margin-left: 88px;
-
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    margin-left: 10rem;
+    font-family: 'Martel', serif;
 }
 
 /* the on amazon word */
 .container1 h4 {
-    color: rgb(3, 2, 2);
+    color: rgb(198, 220, 228);
     font-weight: bold;
-    margin-left: 88px;
+    margin-left: 10rem;
+    font-family: 'Martel', serif;
 }
+
+
 
 /* the other secation ,, prodcts part */
 #products1 h6 span {
-    color: rgba(17, 198, 204, 0.74);
+    color: rgb(255, 189, 200);
+    font-family: 'Martel', serif;
 }
 
 
 .container1 h6 {
     margin-bottom: 99px;
+    font-family: 'Martel', serif;
 }
 
 
 
 #products1 h3 {
-    color: rgb(135, 220, 226);
+    color: rgb(255, 189, 200);
+    font-family: 'Martel', serif;
 }
 
 /*  
@@ -122,9 +139,6 @@ nav span {
 /* the search part */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     border: none;
     outline: none;
     font-family: "Poppins", sans-serif;
@@ -150,15 +164,15 @@ nav span {
 }
 
 #search-container input:focus {
-    border-bottom-color: rgb(135, 220, 226);
+    border-bottom-color: rgb(110, 133, 183);
 }
 
 #search-container button {
-    padding: 1em 2em;
+    padding: 1em 1em;
     margin-left: 1em;
-    background-color: rgb(135, 220, 226);
+    background-color: rgb(110, 133, 183);
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-top: 0.5em;
 }
 
@@ -169,14 +183,14 @@ nav span {
 }
 
 .button-value {
-    border: 2px solid rgb(135, 220, 226);
-    padding: 1em 2.2em;
+    border: 2px solid rgb(110, 133, 183);
+    padding: 0.9em 1em;
     border-radius: 3em;
     background-color: transparent;
-    color: rgb(135, 220, 226);
+    color: rgb(110, 133, 183);
     cursor: pointer;
-    font: bold;
-    margin: 1.5px;
+    font-weight: bold;
+    margin: 3px;
 }
 
 .buy-btn a {
@@ -189,7 +203,7 @@ nav span {
     font-weight: 500;
     outline: none;
     border: none;
-    background-color: black;
+    background-color: rgb(110, 133, 183);
     color: white;
     padding: 10px 13px;
     font-size: 12px;
@@ -203,7 +217,7 @@ nav span {
 }
 
 .active {
-    background-color: rgb(121, 198, 204);
+    background-color: rgb(110, 133, 183);
     color: #ffffff;
 }
 
@@ -215,13 +229,12 @@ nav span {
 }
 
 .price {
-    color: rgb(39, 122, 145);
+    color: rgb(110, 133, 183);
     font-size: 18px;
 }
 
 .product-name {
-
-    font: bold;
+    font-weight: bold;
 }
 
 
@@ -231,18 +244,13 @@ nav span {
     margin-top: 3em;
     padding: 1em;
     border-radius: 5px;
+    margin-left: 83px;
     box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
     justify-content: space-between;
 }
 
-#products{
-    margin-left: 88px;
-}
 
-.card::-webkit-scrollbar {
-    display: none;
-    /* for/*  */
-}
+
 
 .image-container {
     text-align: center;
@@ -252,14 +260,6 @@ img {
     max-width: 100%;
     object-fit: contain;
     height: 12em;
-}
-
-#products {
-    -ms-overflow-style: none;
-    /* for Internet Explorer, Edge */
-    scrollbar-width: none;
-    /* for Firefox */
-    overflow-y: scroll;
 }
 
 
@@ -284,31 +284,48 @@ img {
 
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width:900px) {
     img {
-        max-width: 100%;
+        max-width: 95%;
         object-fit: contain;
-        height: 1em;
+        height: 10em;
+    }
+
+    /*  
+    .container1 h1,
+    h4 {
+        font-size: 30px;
+    }/*  
+
+    .logo {
+        font-size: 20px;
+    }/*  */
+
+    #products1 h6,
+    h3 {
+        font-size: 19px;
     }
 
     .card {
         max-width: 15em;
         margin-top: 3em;
         justify-content: space-between;
-        /*  margin-left: 33px;/*  */
     }
 
     .amazon-logo {
         width: 20px;
     }
 
-    .logo {
-        font-size: 25px;
+    .button-value {
+        padding: 0.5em 1em;
+        margin: 2px;
+
     }
 
-    .container h5,
-    h6 {
-        font-size: 15px;
+    #search-container button {
+        padding: 0.5em 1em;
+
     }
 
     #products {
@@ -316,29 +333,224 @@ img {
         grid-column-gap: 1em;
     }
 
+    .container h5,
+    h6 {
+        font-size: 17px;
+    }
+
+    .buy-btn {
+        padding: 10px;
+    }
+
+    .container1 h5 {
+        font-size: medium;
+    }
+}
+
+
+@media screen and (max-width: 799px) {
+    img {
+        max-width: 95%;
+        object-fit: contain;
+        height: 10em;
+    }
+
+    .container1 h1 {
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+        margin-left: 79px;
+        font-family: 'Martel', serif;
+    }
+
+
+    .container1 h4 {
+        color: rgb(198, 220, 228);
+        font-size: 44px;
+        font-weight: bold;
+        margin-left: 79px;
+        font-family: 'Martel', serif;
+    }
+
     /*  
-    .footer-text h7,
-    h5,
-    p {
-        font-size: 10px;
-    }
-/*  */
-
-    #home h1 {
-        font-size: 39px;
-        /*  margin-bottom: -4em;/*  */
-    }
-
-    /* 
-    .container1 .h4 {
-        margin-top: -2.9em;
+    .logo {
+        font-size: 20px;
     }/*  */
+
+    #products1 h6,
+    h3 {
+        font-size: 19px;
+    }
+
+    .card {
+        max-width: 15em;
+        margin-top: 3em;
+        justify-content: space-between;
+    }
+
+    .amazon-logo {
+        width: 20px;
+    }
+
+    .button-value {
+        padding: 0.5em 1em;
+        margin: 2px;
+
+    }
+
+    #search-container button {
+        padding: 0.5em 1em;
+
+    }
+
+    #products {
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
+
+    .container h5,
+    h6 {
+        font-size: 17px;
+    }
+
+    .buy-btn {
+        padding: 10px;
+    }
+
+    .container1 h5 {
+        font-size: medium;
+    }
+
+    .container h5,
+    h6 {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 670px) {
+    .container1 h1 {
+        color: rgb(255, 255, 255);
+        font-size: 53px;
+        margin-left: 79px;
+        margin-top: -220px;
+        font-family: 'Martel', serif;
+    }
+
+
+    .container1 h4 {
+        color: rgb(198, 220, 228);
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 79px;
+        font-family: 'Martel', serif;
+    }
+
+    #products1 h6,
+    h3 {
+        font-size: 16px;
+    }
+
+    .container h5,
+    h6 {
+        font-size: 14px;
+    }
+
+    .card {
+        margin-left: 30px;
+    }
+
 }
 
 
 
+@media screen and (max-width: 600px) {
+    .container1 h1 {
+        color: rgb(255, 255, 255);
+        font-size: 49px;
+        margin-left: 70px;
+        font-family: 'Martel', serif;
+    }
 
+    .container1 h4 {
+        color: rgb(198, 220, 228);
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 79px;
+        font-family: 'Martel', serif;
+    }
+
+
+    #products1 h6,
+    h3 {
+        font-size: 14px;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-container button {
+        padding: 0.9em 0.5em;
+    }
+
+    .button-value {
+        padding: 0.6em 0.6em;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .container1 h1 {
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        margin-left: 35px;
+        font-family: 'Martel', serif;
+    }
+
+    .container1 h4 {
+        color: rgb(198, 220, 228);
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 39px;
+        font-family: 'Martel', serif;
+    }
+
+    #products1 h6,
+    h3 {
+        font-size: 12px;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-container button {
+        padding: 0.5em 0.9em;
+        border-radius: 22px;
+        font-size: 12px;
+    }
+
+    .button-value {
+        padding: 0.6em 0.4em;
+        font-size: 12px;
+    }
+    .buy-btn a {
+        font-size: 12px;
+    }
+
+}
+
+/*  
 @media screen and (max-width:700px) {
+    img {
+        max-width: 95%;
+        object-fit: contain;
+        height: 10em;
+    }
+
 
     .container1 h1,
     h5 {
@@ -389,9 +601,6 @@ img {
         padding: 10px;
     }
 
-
-
-
     .container1 h5 {
         font-size: medium;
     }
@@ -405,21 +614,6 @@ img {
         height: 10em;
     }
 
-    .card {
-        justify-content: space-between;
-        max-width: 15em;
-        margin-top: 3em;
-        padding: 1em;
-        border-radius: 5px;
-    }
-
-
-
-    .container1 h6,
-    h3 {
-        font-size: 16px;
-    }
-
     .container1 h1,
     h5 {
         font-size: 30px;
@@ -427,6 +621,21 @@ img {
 
     .logo {
         font-size: 20px;
+    }
+
+    .container1 h6,
+    h3 {
+        font-size: 19px;
+    }
+
+    .card {
+        max-width: 15em;
+        margin-top: 3em;
+        justify-content: space-between;
+    }
+
+    #products {
+        margin-left: 20px;
     }
 
     .amazon-logo {
@@ -439,12 +648,6 @@ img {
 
     }
 
-    #search-container button {
-        padding: 0.5em 1em;
-
-    }
-
-    .container h5,
     h6 {
         font-size: 17px;
     }
@@ -530,7 +733,7 @@ img {
         grid-column-gap: 1em;
     }
 
-}/*  */
+}
 
 
 @media screen and (max-width: 500px) {
@@ -574,7 +777,7 @@ img {
 
     }
 
-    /* product  /*  */
+    /* product  /* 
     .container h5,
     h6 {
         font-size: 12px;
@@ -599,7 +802,7 @@ img {
         width: 90%;
         height: 10vh;
     }
- /*  */
+ 
 
     .container1 h1 {
         font-size: 31px;
@@ -676,7 +879,7 @@ img {
     .footer-text {
         height: 10vh;
 
-    }/*  */
+    }/*  
 
     .container1 h1,
     h5 {
@@ -742,7 +945,7 @@ img {
 
     .footer-part{
         height: 25vh;
-    }/*  */
+    }/*
 
     .container1 h1,
     h5 {
@@ -753,7 +956,7 @@ img {
 
 }
 
-
+/*  */
 
 
 
@@ -766,9 +969,9 @@ img {
 /* footer */
 
 .footer-part {
-    background-color: rgba(182, 185, 185, 0.74);
+    background-color: rgb(248, 249, 215);
     width: 100%;
-    height: 50vh;
+    height: 31vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -778,7 +981,7 @@ img {
 
 .footer-part img {
     width: 20px;
-    margin-bottom: -60px;
+    margin-bottom: -44px;
 }
 
 
@@ -788,11 +991,6 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.footer-part h5,
-h7,
-p {
-    font-size: 20 px;
-}
 
 footer-text h5 {
     display: flex;
@@ -801,7 +999,7 @@ footer-text h5 {
 }
 
 .footer-text span {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .copyright {
