@@ -432,7 +432,6 @@ img {
         color: rgb(255, 255, 255);
         font-size: 53px;
         margin-left: 79px;
-        margin-top: -220px;
         font-family: 'Martel', serif;
     }
 
@@ -537,11 +536,43 @@ img {
         padding: 0.6em 0.4em;
         font-size: 12px;
     }
+
     .buy-btn a {
         font-size: 12px;
     }
 
 }
+
+@media screen and (max-width:450px) {
+    .card {
+        max-width: 13em;
+        margin-top: 4em;
+        justify-content: space-between;
+    }
+
+    .buy-btn {
+        padding: 3px;
+        font-size: 10px;
+        padding: 6px 5px;
+    }
+
+    .container h5,
+    h6 {
+        font-size: 10px;
+    }
+
+    img {
+        max-width: 89%;
+        object-fit: contain;
+        height: 10em;
+    }
+    .container h6 {
+        font-weight: 100;
+        font-size: 10px;
+    }
+}
+
+
 
 /*  
 @media screen and (max-width:700px) {
@@ -971,7 +1002,7 @@ img {
 .footer-part {
     background-color: rgb(248, 249, 215);
     width: 100%;
-    height: 31vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     display: flex;
